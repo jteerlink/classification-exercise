@@ -1,0 +1,20 @@
+Step 0:
+A few words of caution: 
+1) Read all the way through the instructions. 
+2) Models must be built using Python.
+3) No additional data may be added or used. 
+4) Not all data must be used to build an adequate model, but making use of complex variables will help us identify high-performance candidates.
+5) The predictions returned should be the class probabilities for belonging to the positive class, not the class itself (i.e. a decimal value, not just 1 or 0). Be sure to output a prediction for EACH of the 10,000 rows in the test dataset.  
+
+Step 1:
+Clean and prepare your data: There are several entries where values have been deleted to simulate dirty data. Please clean the data with whatever method(s) you believe is best/most suitable. Note that some of the missing values are truly blank (unknown answers).
+
+Step 2:
+Build your models: Please build two distinctly different machine learning/statistical models to predict the value for y. When writing the code associated with each model, please have the first part produce and save the model, followed by a second part that loads and applies the model.
+
+Step 3:
+Create predictions on the test dataset using both of your trained models.  The predictions should be the class probabilities for belonging to the positive class (labeled ‘1’).  Be sure to output a prediction for EACH of the 10,000 rows in the test dataset.  Save the results of the two models in a separate CSV files titled “results1.csv” and “results2.csv”.  A result file should each have a single column representing the output from one model. 
+
+Step 4:
+Submit your work: In addition to the two result files (CSV format), please submit all of your code for cleaning, prepping, and modeling your data (text, html, or PDF preferred), and a brief write-up comparing the pros and cons of the two modeling techniques you used (PDF preferred).
+Please do not submit the original data back to us. Your work will be scored on techniques used (appropriateness and complexity), model performance - measured by AUC - on the data hold out, an understanding of the two techniques you compared in your write-up, and your overall code.
